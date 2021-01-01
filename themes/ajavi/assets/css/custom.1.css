@@ -1,0 +1,134 @@
+a {
+    color: #deaa86;
+    text-decoration: none;
+}
+.navbar .navbar-header .navbar-brand .navbar-brand__logo {
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 15px;
+}
+.section__footer {
+    color: #000;
+    background-color: #fff;
+}
+.section__footer .footer__body .footer__item .footer__links>li>a {
+    color: #000;
+}
+.section__home .welcome__content .welcome_content__title-primary,
+.section__about .section_about__content .about__desc .about_desc__subtitle,
+.section__title>strong {
+    color: #be5e4b;
+}
+.btn {
+    border-color: #be5e4b;
+}
+.btn-reservation:hover,
+.btn-reservation:focus {
+    color: #fff;
+    border-color: #be5e4b;
+    background-color: #be5e4b;
+}
+.btn-newsletter>i{
+    color: #be5e4b;
+}
+.btn-top{
+        padding: 15px 21px;
+    background-color: #be5e4b;
+}
+.search-form .btn{
+    border: 0;
+}
+.section__header {
+    height: calc(100vh - 135px) !important;
+}
+.margin-auto{
+    float: none;
+    margin: 0 auto;
+}
+.carousel-detail .carousel-inner .item:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: none !important;
+}
+.section__footer .footer__body .footer__item .social__icons .social-icons__item>a {
+    color: #be5e4b;
+        font-size: 43px;
+}
+.section__info .section_info__body .info__column-left .section_info__contact>p>i {
+    color: #be5e4b;
+}
+.section__info .section_info__body .info__column-right .social__icons .social-icons__item>a {
+    color: #be5e4b;
+}
+.section__about-alt .section_about__content .about__desc {
+    padding: 10px;
+    line-height: 25px;
+}
+.section__best-rooms .best-rooms__content .best-rooms__item figcaption>h3 {
+    position: relative;
+    padding-bottom: 7px;
+    margin-bottom: 4px;
+    color: #fff;
+    -webkit-transform: translate(0, 170px);
+    transform: translate(0, 170px);
+    -webkit-transition: opacity 0.4s, -webkit-transform 0.4s;
+    transition: opacity 0.4s, -webkit-transform 0.4s;
+    transition: opacity 0.4s, transform 0.4s;
+    transition: opacity 0.4s, transform 0.4s, -webkit-transform 0.4s;
+    -webkit-transition-delay: 0.45s;
+    transition-delay: 0.45s;
+    border-bottom: 1px solid #deaa86;
+}
+.section__best-rooms .best-rooms__content .best-rooms__item figcaption .item__price {
+    margin-bottom: 10px;
+    -webkit-transform: translate(0, 170px);
+    transform: translate(0, 170px);
+    -webkit-transition: opacity 0.4s, -webkit-transform 0.4s;
+    transition: opacity 0.4s, -webkit-transform 0.4s;
+    transition: opacity 0.4s, transform 0.4s;
+    transition: opacity 0.4s, transform 0.4s, -webkit-transform 0.4s;
+    -webkit-transition-delay: 0.4s;
+    transition-delay: 0.4s;
+    font-size: 24px;
+    font-family: 'Montserrat',sans-serif;
+}
+.section__contacts-alt .contacts__info .contacts_info__content>li:last-child{
+    padding-bottom: 0;
+}
+.section__contacts-alt .contacts__info .contacts_info__title {
+    margin-bottom: 30px;
+}
+.section__footer .footer__copyright .footer_copyright__text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+}
+.section__footer {
+    color: #ffffff;
+    background-color: #fff;
+}
+/* .btn-top:hover,
+.btn-top:focus,
+.btn-top:active,
+.btn-top:active:focus {
+    background-color: #be5e4b;
+} */
+
+@media (max-width: 568px) 
+{
+    .section__info .section_info__body .info__column-right .social__icons .social-icons__item {
+        display: inline-block;
+        font-size: 16px;
+        padding-right: 10px;
+    }
+    .section__info{
+        display: none;
+    }
+    .navbar-nav {
+        margin: 0 -15px 0;
+    }
+}
